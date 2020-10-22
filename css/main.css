@@ -162,7 +162,9 @@ table {
   font-family: "Noto Sans", sans-serif;
   display: inline-block;
   font-size: 32px;
-  line-height: 43px;
+  line-height: 45px;
+  vertical-align: middle;
+  margin: 0 6px;
 }
 
 .topic_en {
@@ -171,6 +173,9 @@ table {
   color: #a00404;
   font-size: 24px;
   line-height: 28px;
+  font-weight: 600;
+  vertical-align: middle;
+  margin: 0 10px;
 }
 
 .information {
@@ -180,7 +185,46 @@ table {
   margin-bottom: 24px;
 }
 
+.skillList {
+  width: fit-content;
+  padding: 0 24px;
+  margin: 0 auto;
+  border-left: 1px solid #96a9c4;
+}
+
+.skillList_font {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.5;
+  color: white;
+}
+
+.container {
+  padding-top: 47px;
+}
+
 .profiles {
   width: 1200px;
   margin: 0 auto;
+}
+
+.skills {
+  background-color: #415165;
+}
+.skills .skills-container {
+  width: 52%;
+  padding-bottom: 36px;
+  margin: 0 auto;
+}
+.skills .topic--modify {
+  text-align: center;
+  border-color: white !important;
+  margin-bottom: 40px;
+}
+.skills .topic_ch--modify,
+.skills .topic_en--modify {
+  display: inline;
+  color: white;
+  font-weight: 600;
 }

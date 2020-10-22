@@ -1,4 +1,31 @@
+.container {
+  padding-top: 47px;
+}
+
 .profiles {
   width: 1200px;
   margin: 0 auto;
+}
+
+.skills {
+  background-color: #415165;
+
+  .skills-container {
+    width: 52%;
+    padding-bottom: 36px;
+    margin: 0 auto;
+  }
+
+  .topic--modify {
+    text-align: center;
+    border-color: white !important;
+    margin-bottom: 40px;
+  }
+
+  .topic_ch--modify,
+  .topic_en--modify {
+    display: inline;
+    color: white;
+    font-weight: 600;
+  }
 }
