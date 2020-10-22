@@ -5,6 +5,12 @@
   margin-bottom: 16px;
 }
 
+.topic--modify {
+  text-align: center;
+  border-color: white !important;
+  margin-bottom: 40px;
+}
+
 .topic_ch {
   font-family: "Noto Sans", sans-serif;
   display: inline-block;
@@ -23,4 +29,11 @@
   font-weight: 600;
   vertical-align: middle;
   margin: 0 10px;
+}
+
+.topic_ch--modify,
+.topic_en--modify {
+  display: inline;
+  color: white;
+  font-weight: 600;
 }

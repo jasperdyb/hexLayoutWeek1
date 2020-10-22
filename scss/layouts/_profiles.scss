@@ -15,19 +15,6 @@
     padding-bottom: 36px;
     margin: 0 auto;
   }
-
-  .topic--modify {
-    text-align: center;
-    border-color: white !important;
-    margin-bottom: 40px;
-  }
-
-  .topic_ch--modify,
-  .topic_en--modify {
-    display: inline;
-    color: white;
-    font-weight: 600;
-  }
 }
 
 .experiences {
@@ -37,5 +24,16 @@
 
   img {
     display: block;
+  }
+}
+
+.footer {
+  background-color: #415165;
+
+  .footer-container {
+    width: 1200px;
+    padding: 24px 0;
+    margin: 0 auto;
+    text-align: center;
   }
 }

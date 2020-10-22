@@ -158,6 +158,12 @@ table {
   margin-bottom: 16px;
 }
 
+.topic--modify {
+  text-align: center;
+  border-color: white !important;
+  margin-bottom: 40px;
+}
+
 .topic_ch {
   font-family: "Noto Sans", sans-serif;
   display: inline-block;
@@ -176,6 +182,13 @@ table {
   font-weight: 600;
   vertical-align: middle;
   margin: 0 10px;
+}
+
+.topic_ch--modify,
+.topic_en--modify {
+  display: inline;
+  color: white;
+  font-weight: 600;
 }
 
 .information {
@@ -230,6 +243,25 @@ table {
   line-height: 1.5;
 }
 
+.contactList li {
+  margin-bottom: 16px;
+}
+.contactList li:last-child {
+  margin-bottom: 0;
+}
+
+.contactList_font {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  color: white;
+}
+
+.socialMediaIcon {
+  margin: 12px;
+}
+
 .container {
   padding-top: 47px;
 }
@@ -247,17 +279,6 @@ table {
   padding-bottom: 36px;
   margin: 0 auto;
 }
-.skills .topic--modify {
-  text-align: center;
-  border-color: white !important;
-  margin-bottom: 40px;
-}
-.skills .topic_ch--modify,
-.skills .topic_en--modify {
-  display: inline;
-  color: white;
-  font-weight: 600;
-}
 
 .experiences {
   width: 1200px;
@@ -266,4 +287,14 @@ table {
 }
 .experiences img {
   display: block;
+}
+
+.footer {
+  background-color: #415165;
+}
+.footer .footer-container {
+  width: 1200px;
+  padding: 24px 0;
+  margin: 0 auto;
+  text-align: center;
 }
