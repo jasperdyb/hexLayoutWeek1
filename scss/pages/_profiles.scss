@@ -1,24 +1,27 @@
+$profile-width: 1200px / 1920px * 100%;
+$skill-width: 996px/1920px * 100%;
+
 .container {
   padding-top: 47px;
 }
 
 .profiles {
-  width: 1200px;
+  width: $profile-width;
   margin: 0 auto;
 }
 
 .skills {
   background-color: #415165;
 
-  .skills-container {
-    width: 996px;
+  .skills_container {
+    width: $skill-width;
     padding-bottom: 36px;
     margin: 0 auto;
   }
 }
 
 .experiences {
-  width: 1200px;
+  width: $profile-width;
   padding: 72px 0;
   margin: 0 auto;
 
@@ -30,8 +33,8 @@
 .footer {
   background-color: #415165;
 
-  .footer-container {
-    width: 1200px;
+  .footer_container {
+    width: $profile-width;
     padding: 24px 0;
     margin: 0 auto;
     text-align: center;

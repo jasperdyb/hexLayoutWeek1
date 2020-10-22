@@ -220,7 +220,7 @@ table {
   border-left: 1px solid #96a9c4;
 }
 .experienceList p {
-  width: 642px;
+  max-width: 642px;
 }
 .experienceList li {
   margin-bottom: 24px;
@@ -267,21 +267,21 @@ table {
 }
 
 .profiles {
-  width: 1200px;
+  width: 62.5%;
   margin: 0 auto;
 }
 
 .skills {
   background-color: #415165;
 }
-.skills .skills-container {
-  width: 996px;
+.skills .skills_container {
+  width: 51.875%;
   padding-bottom: 36px;
   margin: 0 auto;
 }
 
 .experiences {
-  width: 1200px;
+  width: 62.5%;
   padding: 72px 0;
   margin: 0 auto;
 }
@@ -292,8 +292,8 @@ table {
 .footer {
   background-color: #415165;
 }
-.footer .footer-container {
-  width: 1200px;
+.footer .footer_container {
+  width: 62.5%;
   padding: 24px 0;
   margin: 0 auto;
   text-align: center;
