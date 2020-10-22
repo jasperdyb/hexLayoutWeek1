@@ -200,6 +200,36 @@ table {
   color: white;
 }
 
+.experienceList {
+  width: fit-content;
+  padding: 0 24px;
+  margin-left: 24px;
+  border-left: 1px solid #96a9c4;
+}
+.experienceList p {
+  width: 642px;
+}
+.experienceList li {
+  margin-bottom: 24px;
+}
+.experienceList li:last-child {
+  margin-bottom: 0;
+}
+.experienceList img {
+  margin: 8px 0;
+}
+
+.experienceList_font {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.5;
+}
+.experienceList_font p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
 .container {
   padding-top: 47px;
 }
@@ -213,7 +243,7 @@ table {
   background-color: #415165;
 }
 .skills .skills-container {
-  width: 52%;
+  width: 996px;
   padding-bottom: 36px;
   margin: 0 auto;
 }
@@ -227,4 +257,13 @@ table {
   display: inline;
   color: white;
   font-weight: 600;
+}
+
+.experiences {
+  width: 1200px;
+  padding: 72px 0;
+  margin: 0 auto;
+}
+.experiences img {
+  display: block;
 }
