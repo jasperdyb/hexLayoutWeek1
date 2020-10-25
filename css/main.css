@@ -262,6 +262,14 @@ table {
   margin: 12px;
 }
 
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+.link:hover {
+  color: darked(inherit, 50%);
+}
+
 .container {
   padding-top: 47px;
 }

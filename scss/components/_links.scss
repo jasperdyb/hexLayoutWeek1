@@ -1,0 +1,8 @@
+@use "sass:color";
+
+$inherit-color: inherit;
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
